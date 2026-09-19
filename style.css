@@ -1,0 +1,91 @@
+/* Navigation Bar */
+.navbar {
+  background-color: #333;
+  padding: 1em;
+  font-size: 1.2em;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+/* Unordered list inside the navbar */ 
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* List names inside the navbar */
+.navbar li {
+    display: inline;
+  margin-right:0 1em;
+}
+/* Anchor tags inside the list items */
+.navbar li a {
+  color: #fff;
+}
+/* Main content Layout */
+main {
+    padding-top: 5em; /* Adjust this value based on the height of your navbar */
+    main {
+        padding-top: 5em; /* Adjust this value based on the height of your navbar */
+        padding: 2em 1em;
+        text-align: center;
+    }
+    /* Home Section */
+    #home h1 {
+            font-size: 2.5em;
+            margin-bottom: 0.5em;
+    }
+    #home p {
+                font-size: 1.2em;
+                color: #666;
+            }
+        }
+/* Flexbox container for the sections */
+        .portfolio-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 1em;
+        }
+/* Individual portfolio items */
+        .portfolio-item {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            margin: 1em;
+            padding: 1em;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 30%;
+            box-sizing: border-box;
+            transition: transform 0.3s;
+        }    
+/* Heading inside portfolio items */
+        .portfolio-item h3 {
+            font-weight: bold;
+            margin-bottom: 0.5em;
+        }        
+/* Paragraph inside portfolio items */
+        .portfolio-item p {
+            margin-bottom: 0.5em;
+            color: #666;
+        }
+/*Images inside portfolio items */
+        .portfolio-item img {
+            width: 100%;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        } 
+/* Hover effect for portfolio items */
+        .portfolio-item:hover {
+            transform: scale(1.05);
+        }  
+/* Footer styling */
+        footer {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 2em;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }     
